@@ -1,0 +1,13 @@
+# 日志
+logging: True
+# webui 默认启动端口号
+port: 17860
+# 模型类型
+llm_type: bloom
+# 模型配置
+llm_models:
+  bloom:
+    path: ""
+    #模型位置
+    strategy: ""
+    #模型参数 暂时不用"
